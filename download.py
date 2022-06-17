@@ -4,6 +4,7 @@
 # In this example: A Huggingface BERT model
 
 from transformers import pipeline
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 def download_model():
     # do a dry run of loading the huggingface model, which will download weights
