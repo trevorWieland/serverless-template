@@ -1,3 +1,5 @@
 sanic
 transformers
 torch
+sentencepiece
+sacremoses
