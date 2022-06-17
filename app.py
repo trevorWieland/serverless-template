@@ -32,7 +32,7 @@ def inference(model_inputs:dict) -> dict:
     # Run the model
     result = model(
         input_sentence,
-        num_beams=2,
+        num_beams=4,
         max_length=128,
         truncation=True
     )
